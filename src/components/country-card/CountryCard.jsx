@@ -15,15 +15,17 @@ const CountryCard = (props) => {
                 </div>
                 <div className="flex flex-1 flex-col gap-[2px] overflow-hidden">
                     <h2 className="font-bold text-2xl text-white text-ellipsis truncate">{name}</h2>
-                    <div className="flex gap-[10px] items-center">
+                    <div className="flex gap-[5px] items-center">
                         <div className="flex gap-[5px] items-center">
                             <img src={locationIcon}/>
                             <p>{capital ?? 'No capital'}</p>
                         </div>
+                        <div className="w-[1px] h-[20px] bg-gray-border"/>
                         <div className="flex gap-[5px] items-center">
                             <img src={globeIcon}/>
                             <p>{states.length} states</p>
                         </div>
+                        <div className="w-[1px] h-[20px] bg-gray-border"/>
                         <div className="flex gap-[5px] items-center">
                             <img src={phoneIcon}/>
                             <p>+{phone}</p>
