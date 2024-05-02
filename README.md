@@ -1,5 +1,4 @@
-# hirefy
-Prueba técnica hirefy
+# countries app
 
 Proyecto creado con vite, utilizando react y tailwind.
 
